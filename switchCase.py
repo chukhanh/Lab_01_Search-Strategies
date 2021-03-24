@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from collections import deque, defaultdict
 import BFS as bfs
 import DFS as dfs
+import UCS as ucs
 import readfile as read
 import drawGraph as draw
 import convert as convert
@@ -70,7 +71,15 @@ def switchCase(number):
     if number == 2:
         # graph = convert.convert_AdjMatrix_EdgeLisT(matrix)
         graph = convert.convert_print_edgeWeight(matrix)
-        print(graph)
+        # graph = convert.convert_AdjMatrix_toDict(matrix)
+        # print(graph)
+        # for lines in range(len(graph)):
+        #     for line in range(len(graph[lines])):
+        #         print(graph[0][line])
+        a = ucs.create_graph_ucs(graph)
+        path = []
+	    path = ucs.UCS_search(a, source, destination)    
+        
 
 
         
