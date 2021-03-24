@@ -16,10 +16,10 @@ def main():
     # print("6: Hill-climbing (HC)")
     # print("===================================================================")
 
-    matrix = read.read_graph(p.path())
-    number = read.read_number_of_node(p.path())
+    matrix = read.read_graph(p.pathInput())
+    number = read.read_number_of_node(p.pathInput())
     if len(matrix) <= int(number):
-        node = read.read_node(p.path())
+        node = read.read_node(p.pathInput())
         option = node[2]
         switch.switchCase(option)
     else:
