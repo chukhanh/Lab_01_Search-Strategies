@@ -9,4 +9,4 @@ Library:
 2. matplotlib
 3. Numpy
 
-To install linrary: python -m pip install "name of library"
+To install linrary: python3 -m pip install "name of library"
