@@ -3,7 +3,8 @@
 ### Name : Chu Đức Khánh 
 ### ID: 1651049 
 ---
-== Run program: python3 main.py ==
+Run program: python3 main.py 
+
 ---
 
 Library:
@@ -12,3 +13,5 @@ Library:
 3. Numpy
 
 To install linrary: python3 -m pip install "name of library"
+
+---
