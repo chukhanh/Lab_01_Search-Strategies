@@ -76,9 +76,14 @@ def switchCase(number):
         # for lines in range(len(graph)):
         #     for line in range(len(graph[lines])):
         #         print(graph[0][line])
-        a = ucs.create_graph_ucs(graph)
-        path = []
-	    path = ucs.UCS_search(a, source, destination)    
+        # a = ucs.create_graph_ucs(graph)
+        # path = []
+	    # path = ucs.UCS_search(a, source, destination)
+        # print(graph)    
+        # graph = convert.convert_print_edge(matrix)
+        # print(graph)
+        for line in graph:
+            print(line)
         
 
 
